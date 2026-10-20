@@ -1,0 +1,11 @@
+@'
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+received_files/
+downloads/
+test_large.bin
+test.txt
+.env
+'@ | Set-Content .gitignore
